@@ -1,0 +1,2662 @@
+{
+  "generatedAt": "2026-04-12T21:00:56.591Z",
+  "totals": {
+    "questions": 70,
+    "categories": {
+      "personal": 11,
+      "tech-opinions": 19,
+      "t3-stack": 8,
+      "company": 13,
+      "content": 19
+    }
+  },
+  "models": [
+    {
+      "slug": "gpt-5-4",
+      "provider": "openai",
+      "model": "gpt-5.4",
+      "overall": 0.8231578947368421,
+      "categories": {
+        "personal": 0.8172727272727275,
+        "tech-opinions": 0.8312499999999999,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 8,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 19,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.2714285714285714,
+      "complete": false,
+      "totalScore": 15.64
+    },
+    {
+      "slug": "gpt-5-2",
+      "provider": "openai",
+      "model": "gpt-5.2",
+      "overall": 0.7976923076923076,
+      "categories": {
+        "personal": 0.7854545454545455,
+        "tech-opinions": 0.865,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 2,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 13,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.18571428571428572,
+      "complete": false,
+      "totalScore": 10.37
+    },
+    {
+      "slug": "gpt-5-4-mini",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "overall": 0.7320833333333332,
+      "categories": {
+        "personal": 0.8181818181818182,
+        "tech-opinions": 0.7150000000000001,
+        "t3-stack": 0.47333333333333333,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 3,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 24,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.34285714285714286,
+      "complete": false,
+      "totalScore": 17.569999999999997
+    },
+    {
+      "slug": "gpt-5-3-codex",
+      "provider": "openai",
+      "model": "gpt-5.3-codex",
+      "overall": 0.698125,
+      "categories": {
+        "personal": 0.6454545454545455,
+        "tech-opinions": 0.8140000000000001,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 5,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 16,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.22857142857142856,
+      "complete": false,
+      "totalScore": 11.17
+    },
+    {
+      "slug": "nemotron-3-nano",
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "overall": 0.6,
+      "categories": {
+        "personal": 0.6,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 2,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 2,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.02857142857142857,
+      "complete": false,
+      "totalScore": 1.2
+    },
+    {
+      "slug": "qwen3-30b",
+      "provider": "qwen",
+      "model": "qwen/qwen3-30b-a3b",
+      "overall": 0.5416666666666666,
+      "categories": {
+        "personal": 0.5416666666666666,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 6,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 6,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.08571428571428572,
+      "complete": false,
+      "totalScore": 3.25
+    },
+    {
+      "slug": "nova-micro",
+      "provider": "amazon",
+      "model": "amazon/nova-micro-v1",
+      "overall": 0.5166666666666667,
+      "categories": {
+        "personal": 0.5166666666666667,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 6,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 6,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.08571428571428572,
+      "complete": false,
+      "totalScore": 3.1
+    },
+    {
+      "slug": "claude-opus-4-6",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "overall": 0.4632857142857142,
+      "categories": {
+        "personal": 0.5500000000000002,
+        "tech-opinions": 0.54,
+        "t3-stack": 0.79625,
+        "company": 0.38538461538461544,
+        "content": 0.24947368421052632
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 32.42999999999999
+    },
+    {
+      "slug": "gpt-5-4-pro",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.4-pro",
+      "overall": 0.4533333333333332,
+      "categories": {
+        "personal": 0.40454545454545454,
+        "tech-opinions": 0.511,
+        "t3-stack": 0.5787500000000001,
+        "company": 0.41333333333333333,
+        "content": 0.385
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 8,
+        "company": 9,
+        "content": 10
+      },
+      "totalQuestions": 48,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.6857142857142857,
+      "complete": false,
+      "totalScore": 21.759999999999994
+    },
+    {
+      "slug": "qwen3-8b",
+      "provider": "qwen",
+      "model": "qwen/qwen3-8b",
+      "overall": 0.4428571428571429,
+      "categories": {
+        "personal": 0.4428571428571429,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 7,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 7,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.1,
+      "complete": false,
+      "totalScore": 3.1
+    },
+    {
+      "slug": "qwen3-32b",
+      "provider": "qwen",
+      "model": "qwen/qwen3-32b",
+      "overall": 0.43571428571428567,
+      "categories": {
+        "personal": 0.43571428571428567,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 7,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 7,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.1,
+      "complete": false,
+      "totalScore": 3.05
+    },
+    {
+      "slug": "claude-sonnet-4-6",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "overall": 0.4322857142857143,
+      "categories": {
+        "personal": 0.3136363636363636,
+        "tech-opinions": 0.5657894736842104,
+        "t3-stack": 0.70625,
+        "company": 0.3523076923076923,
+        "content": 0.30684210526315786
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 30.259999999999998
+    },
+    {
+      "slug": "gpt-5-1-codex-max",
+      "provider": "openai",
+      "model": "gpt-5.1-codex-max",
+      "overall": 0.4252,
+      "categories": {
+        "personal": 0.2136363636363636,
+        "tech-opinions": 0.632,
+        "t3-stack": 0.49,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 4,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 25,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.35714285714285715,
+      "complete": false,
+      "totalScore": 10.63
+    },
+    {
+      "slug": "deepseek-r1-distill-70b",
+      "provider": "deepseek",
+      "model": "deepseek/deepseek-r1-distill-llama-70b",
+      "overall": 0.425,
+      "categories": {
+        "personal": 0.425,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 2,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 2,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.02857142857142857,
+      "complete": false,
+      "totalScore": 0.85
+    },
+    {
+      "slug": "gemini-3-1-pro",
+      "provider": "google",
+      "model": "google/gemini-3.1-pro-preview",
+      "overall": 0.4195714285714286,
+      "categories": {
+        "personal": 0.3936363636363636,
+        "tech-opinions": 0.5373684210526316,
+        "t3-stack": 0.7062499999999999,
+        "company": 0.35384615384615387,
+        "content": 0.24105263157894738
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 29.37
+    },
+    {
+      "slug": "ministral-8b",
+      "provider": "mistral",
+      "model": "mistralai/ministral-8b-2512",
+      "overall": 0.41874999999999996,
+      "categories": {
+        "personal": 0.41874999999999996,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 8,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 8,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.11428571428571428,
+      "complete": false,
+      "totalScore": 3.3499999999999996
+    },
+    {
+      "slug": "mistral-small-creative",
+      "provider": "mistral",
+      "model": "mistralai/mistral-small-creative",
+      "overall": 0.4166666666666667,
+      "categories": {
+        "personal": 0.4166666666666667,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 3,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 3,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.04285714285714286,
+      "complete": false,
+      "totalScore": 1.25
+    },
+    {
+      "slug": "reka-edge",
+      "provider": "reka",
+      "model": "rekaai/reka-edge",
+      "overall": 0.4166666666666667,
+      "categories": {
+        "personal": 0.4166666666666667,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 3,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 3,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.04285714285714286,
+      "complete": false,
+      "totalScore": 1.25
+    },
+    {
+      "slug": "gpt-5-pro",
+      "provider": "openai-or",
+      "model": "openai/gpt-5-pro",
+      "overall": 0.41379310344827575,
+      "categories": {
+        "personal": 0.3663636363636363,
+        "tech-opinions": 0.44705882352941173,
+        "t3-stack": 0.70875,
+        "company": 0.3277777777777777,
+        "content": 0.2884615384615385
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 17,
+        "t3-stack": 8,
+        "company": 9,
+        "content": 13
+      },
+      "totalQuestions": 58,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.8285714285714286,
+      "complete": false,
+      "totalScore": 23.999999999999993
+    },
+    {
+      "slug": "qwen3-5-9b",
+      "provider": "qwen",
+      "model": "qwen/qwen3.5-9b",
+      "overall": 0.4,
+      "categories": {
+        "personal": 0.4,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 5,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 5,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.07142857142857142,
+      "complete": false,
+      "totalScore": 2
+    },
+    {
+      "slug": "devstral-small",
+      "provider": "mistral",
+      "model": "mistralai/devstral-small",
+      "overall": 0.39999999999999997,
+      "categories": {
+        "personal": 0.39999999999999997,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 3,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 3,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.04285714285714286,
+      "complete": false,
+      "totalScore": 1.2
+    },
+    {
+      "slug": "grok-4",
+      "provider": "xai",
+      "model": "x-ai/grok-4",
+      "overall": 0.3989285714285714,
+      "categories": {
+        "personal": 0.36363636363636354,
+        "tech-opinions": 0.44399999999999995,
+        "t3-stack": 0.39,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 7,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 28,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.4,
+      "complete": false,
+      "totalScore": 11.17
+    },
+    {
+      "slug": "qwen3-14b",
+      "provider": "qwen",
+      "model": "qwen/qwen3-14b",
+      "overall": 0.38333333333333336,
+      "categories": {
+        "personal": 0.38333333333333336,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 9,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 9,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.12857142857142856,
+      "complete": false,
+      "totalScore": 3.45
+    },
+    {
+      "slug": "gpt-5-1-chat",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.1-chat",
+      "overall": 0.3748571428571429,
+      "categories": {
+        "personal": 0.309090909090909,
+        "tech-opinions": 0.4978947368421052,
+        "t3-stack": 0.64625,
+        "company": 0.32538461538461544,
+        "content": 0.20947368421052634
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 26.240000000000002
+    },
+    {
+      "slug": "gpt-5-2-chat",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.2-chat",
+      "overall": 0.37246376811594195,
+      "categories": {
+        "personal": 0.49090909090909085,
+        "tech-opinions": 0.5127777777777778,
+        "t3-stack": 0.45625,
+        "company": 0.2915384615384615,
+        "content": 0.1910526315789474
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 18,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 25.699999999999996
+    },
+    {
+      "slug": "gpt-5-2-codex-or",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.2-codex",
+      "overall": 0.3681249999999999,
+      "categories": {
+        "personal": 0.345,
+        "tech-opinions": 0.5173684210526315,
+        "t3-stack": 0.44166666666666665,
+        "company": 0.28909090909090907,
+        "content": 0.24722222222222223
+      },
+      "categoryCounts": {
+        "personal": 10,
+        "tech-opinions": 19,
+        "t3-stack": 6,
+        "company": 11,
+        "content": 18
+      },
+      "totalQuestions": 64,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9142857142857143,
+      "complete": false,
+      "totalScore": 23.559999999999995
+    },
+    {
+      "slug": "grok-3",
+      "provider": "xai",
+      "model": "x-ai/grok-3",
+      "overall": 0.3651111111111111,
+      "categories": {
+        "personal": 0.35,
+        "tech-opinions": 0.47800000000000004,
+        "t3-stack": 0.4125,
+        "company": 0.33888888888888885,
+        "content": 0.20714285714285713
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 8,
+        "company": 9,
+        "content": 7
+      },
+      "totalQuestions": 45,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.6428571428571429,
+      "complete": false,
+      "totalScore": 16.43
+    },
+    {
+      "slug": "deepseek-chat-v3-1",
+      "provider": "deepseek",
+      "model": "deepseek/deepseek-chat-v3.1",
+      "overall": 0.36153846153846153,
+      "categories": {
+        "personal": 0.3590909090909091,
+        "tech-opinions": 0.375,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 2,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 13,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.18571428571428572,
+      "complete": false,
+      "totalScore": 4.7
+    },
+    {
+      "slug": "gpt-5-2-pro",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.2-pro",
+      "overall": 0.3604285714285712,
+      "categories": {
+        "personal": 0.34727272727272723,
+        "tech-opinions": 0.4768421052631579,
+        "t3-stack": 0.51875,
+        "company": 0.2684615384615384,
+        "content": 0.24789473684210525
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 25.229999999999986
+    },
+    {
+      "slug": "gemini-3-flash",
+      "provider": "google",
+      "model": "google/gemini-3-flash-preview",
+      "overall": 0.3574285714285713,
+      "categories": {
+        "personal": 0.2227272727272727,
+        "tech-opinions": 0.4510526315789475,
+        "t3-stack": 0.74125,
+        "company": 0.31153846153846154,
+        "content": 0.2115789473684211
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 25.019999999999992
+    },
+    {
+      "slug": "gpt-5-2-codex",
+      "provider": "openai",
+      "model": "gpt-5.2-codex",
+      "overall": 0.3552631578947369,
+      "categories": {
+        "personal": 0.31363636363636366,
+        "tech-opinions": 0.41250000000000003,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 8,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 19,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.2714285714285714,
+      "complete": false,
+      "totalScore": 6.750000000000001
+    },
+    {
+      "slug": "deepseek-chat",
+      "provider": "deepseek",
+      "model": "deepseek/deepseek-chat",
+      "overall": 0.3511538461538461,
+      "categories": {
+        "personal": 0.2772727272727273,
+        "tech-opinions": 0.42299999999999993,
+        "t3-stack": 0.37,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 5,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 26,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.37142857142857144,
+      "complete": false,
+      "totalScore": 9.129999999999999
+    },
+    {
+      "slug": "phi-4",
+      "provider": "microsoft",
+      "model": "microsoft/phi-4",
+      "overall": 0.35000000000000003,
+      "categories": {
+        "personal": 0.35000000000000003,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 6,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 6,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.08571428571428572,
+      "complete": false,
+      "totalScore": 2.1
+    },
+    {
+      "slug": "gpt-5-2-or",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.2",
+      "overall": 0.3457142857142857,
+      "categories": {
+        "personal": 0.2290909090909091,
+        "tech-opinions": 0.4921052631578947,
+        "t3-stack": 0.57125,
+        "company": 0.27384615384615385,
+        "content": 0.22105263157894733
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 24.2
+    },
+    {
+      "slug": "gpt-5-chat",
+      "provider": "openai-or",
+      "model": "openai/gpt-5-chat",
+      "overall": 0.3439999999999999,
+      "categories": {
+        "personal": 0.3681818181818182,
+        "tech-opinions": 0.4421052631578948,
+        "t3-stack": 0.5975,
+        "company": 0.21153846153846154,
+        "content": 0.21578947368421056
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 24.079999999999995
+    },
+    {
+      "slug": "gpt-5-3-chat",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.3-chat",
+      "overall": 0.34128571428571425,
+      "categories": {
+        "personal": 0.33636363636363636,
+        "tech-opinions": 0.5294736842105263,
+        "t3-stack": 0.39375,
+        "company": 0.21,
+        "content": 0.2236842105263158
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 23.889999999999997
+    },
+    {
+      "slug": "grok-4-1-fast",
+      "provider": "xai",
+      "model": "x-ai/grok-4.1-fast",
+      "overall": 0.333142857142857,
+      "categories": {
+        "personal": 0.3181818181818182,
+        "tech-opinions": 0.5089473684210526,
+        "t3-stack": 0.40375000000000005,
+        "company": 0.18307692307692308,
+        "content": 0.23894736842105263
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 23.319999999999993
+    },
+    {
+      "slug": "gpt-5-1-codex-mini",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.1-codex-mini",
+      "overall": 0.3269696969696969,
+      "categories": {
+        "personal": 0.26875,
+        "tech-opinions": 0.38125000000000003,
+        "t3-stack": 0.38166666666666665,
+        "company": 0.44999999999999996,
+        "content": 0.21428571428571427
+      },
+      "categoryCounts": {
+        "personal": 8,
+        "tech-opinions": 8,
+        "t3-stack": 6,
+        "company": 4,
+        "content": 7
+      },
+      "totalQuestions": 33,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.4714285714285714,
+      "complete": false,
+      "totalScore": 10.789999999999997
+    },
+    {
+      "slug": "gemini-2-5-pro",
+      "provider": "google",
+      "model": "google/gemini-2.5-pro",
+      "overall": 0.3218840579710145,
+      "categories": {
+        "personal": 0.3227272727272727,
+        "tech-opinions": 0.41666666666666663,
+        "t3-stack": 0.5575,
+        "company": 0.17692307692307693,
+        "content": 0.23157894736842102
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 18,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 22.21
+    },
+    {
+      "slug": "gpt-4-1",
+      "provider": "openai-or",
+      "model": "openai/gpt-4.1",
+      "overall": 0.3208695652173912,
+      "categories": {
+        "personal": 0.34545454545454546,
+        "tech-opinions": 0.41578947368421054,
+        "t3-stack": 0.4785714285714286,
+        "company": 0.26615384615384613,
+        "content": 0.19105263157894736
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 7,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 22.139999999999993
+    },
+    {
+      "slug": "o1",
+      "provider": "openai-or",
+      "model": "openai/o1",
+      "overall": 0.3179999999999999,
+      "categories": {
+        "personal": 0.34545454545454546,
+        "tech-opinions": 0.3957894736842105,
+        "t3-stack": 0.61875,
+        "company": 0.1792307692307692,
+        "content": 0.19263157894736843
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 22.259999999999994
+    },
+    {
+      "slug": "grok-4-fast",
+      "provider": "xai",
+      "model": "x-ai/grok-4-fast",
+      "overall": 0.3162857142857143,
+      "categories": {
+        "personal": 0.3254545454545455,
+        "tech-opinions": 0.48315789473684206,
+        "t3-stack": 0.38125,
+        "company": 0.1630769230769231,
+        "content": 0.22157894736842101
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 22.14
+    },
+    {
+      "slug": "o3",
+      "provider": "openai-or",
+      "model": "openai/o3",
+      "overall": 0.31391304347826093,
+      "categories": {
+        "personal": 0.19999999999999998,
+        "tech-opinions": 0.42368421052631583,
+        "t3-stack": 0.49749999999999994,
+        "company": 0.1958333333333333,
+        "content": 0.26736842105263164
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 12,
+        "content": 19
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 21.660000000000004
+    },
+    {
+      "slug": "gemma-4-31b",
+      "provider": "google",
+      "model": "google/gemma-4-31b-it",
+      "overall": 0.29250000000000004,
+      "categories": {
+        "personal": 0.2409090909090909,
+        "tech-opinions": 0.49000000000000005,
+        "t3-stack": 0.34166666666666673,
+        "company": 0.2677777777777777,
+        "content": 0.16916666666666666
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 6,
+        "company": 9,
+        "content": 12
+      },
+      "totalQuestions": 48,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.6857142857142857,
+      "complete": false,
+      "totalScore": 14.040000000000003
+    },
+    {
+      "slug": "gpt-4o",
+      "provider": "openai-or",
+      "model": "openai/gpt-4o",
+      "overall": 0.28714285714285714,
+      "categories": {
+        "personal": 0.32272727272727275,
+        "tech-opinions": 0.3294736842105263,
+        "t3-stack": 0.5537500000000001,
+        "company": 0.18153846153846154,
+        "content": 0.18421052631578946
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 20.1
+    },
+    {
+      "slug": "o3-mini",
+      "provider": "openai-or",
+      "model": "openai/o3-mini",
+      "overall": 0.28594202898550714,
+      "categories": {
+        "personal": 0.265,
+        "tech-opinions": 0.36473684210526314,
+        "t3-stack": 0.34375,
+        "company": 0.223076923076923,
+        "content": 0.23684210526315788
+      },
+      "categoryCounts": {
+        "personal": 10,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 19.729999999999993
+    },
+    {
+      "slug": "grok-4-20",
+      "provider": "xai",
+      "model": "x-ai/grok-4.20",
+      "overall": 0.2849253731343284,
+      "categories": {
+        "personal": 0.1881818181818182,
+        "tech-opinions": 0.4136842105263159,
+        "t3-stack": 0.4225,
+        "company": 0.21083333333333332,
+        "content": 0.19117647058823525
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 12,
+        "content": 17
+      },
+      "totalQuestions": 67,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9571428571428572,
+      "complete": false,
+      "totalScore": 19.090000000000003
+    },
+    {
+      "slug": "o4-mini",
+      "provider": "openai-or",
+      "model": "openai/o4-mini",
+      "overall": 0.281159420289855,
+      "categories": {
+        "personal": 0.23636363636363636,
+        "tech-opinions": 0.40578947368421053,
+        "t3-stack": 0.43374999999999997,
+        "company": 0.18000000000000002,
+        "content": 0.18222222222222217
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 18
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 19.399999999999995
+    },
+    {
+      "slug": "gemma-4-26b",
+      "provider": "google",
+      "model": "google/gemma-4-26b-a4b-it",
+      "overall": 0.27871428571428575,
+      "categories": {
+        "personal": 0.2409090909090909,
+        "tech-opinions": 0.38578947368421046,
+        "t3-stack": 0.40625,
+        "company": 0.19615384615384615,
+        "content": 0.19631578947368422
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 19.51
+    },
+    {
+      "slug": "mistral-nemo",
+      "provider": "mistral",
+      "model": "mistralai/mistral-nemo",
+      "overall": 0.267741935483871,
+      "categories": {
+        "personal": 0.33636363636363636,
+        "tech-opinions": 0.26999999999999996,
+        "t3-stack": 0.2375,
+        "company": 0,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 10,
+        "t3-stack": 8,
+        "company": 2,
+        "content": 0
+      },
+      "totalQuestions": 31,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.44285714285714284,
+      "complete": false,
+      "totalScore": 8.3
+    },
+    {
+      "slug": "gemini-3-1-flash-lite",
+      "provider": "google",
+      "model": "google/gemini-3.1-flash-lite-preview",
+      "overall": 0.2661428571428572,
+      "categories": {
+        "personal": 0.15454545454545457,
+        "tech-opinions": 0.4147368421052631,
+        "t3-stack": 0.47375,
+        "company": 0.16999999999999998,
+        "content": 0.16052631578947368
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 18.630000000000003
+    },
+    {
+      "slug": "qwen-turbo",
+      "provider": "qwen",
+      "model": "qwen/qwen-turbo",
+      "overall": 0.2630769230769231,
+      "categories": {
+        "personal": 0.23636363636363636,
+        "tech-opinions": 0.41000000000000003,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 2,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 13,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.18571428571428572,
+      "complete": false,
+      "totalScore": 3.4200000000000004
+    },
+    {
+      "slug": "mistral-7b",
+      "provider": "mistral",
+      "model": "mistralai/mistral-7b-instruct-v0.1",
+      "overall": 0.2625,
+      "categories": {
+        "personal": 0.2625,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 8,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 8,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.11428571428571428,
+      "complete": false,
+      "totalScore": 2.1
+    },
+    {
+      "slug": "gemini-2-0-flash",
+      "provider": "google",
+      "model": "google/gemini-2.0-flash-001",
+      "overall": 0.2571428571428572,
+      "categories": {
+        "personal": 0.22727272727272724,
+        "tech-opinions": 0.3847368421052632,
+        "t3-stack": 0.5375,
+        "company": 0.15615384615384614,
+        "content": 0.09789473684210528
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 18.000000000000004
+    },
+    {
+      "slug": "gemini-2-0-flash-lite",
+      "provider": "google",
+      "model": "google/gemini-2.0-flash-lite-001",
+      "overall": 0.25471428571428584,
+      "categories": {
+        "personal": 0.3227272727272727,
+        "tech-opinions": 0.36052631578947364,
+        "t3-stack": 0.29375,
+        "company": 0.16538461538461538,
+        "content": 0.15421052631578946
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 17.83000000000001
+    },
+    {
+      "slug": "gemini-2-5-flash",
+      "provider": "google",
+      "model": "google/gemini-2.5-flash",
+      "overall": 0.24800000000000008,
+      "categories": {
+        "personal": 0.2772727272727273,
+        "tech-opinions": 0.38736842105263153,
+        "t3-stack": 0.415,
+        "company": 0.16153846153846152,
+        "content": 0.08052631578947368
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 17.360000000000007
+    },
+    {
+      "slug": "gemini-2-5-flash-lite",
+      "provider": "google",
+      "model": "google/gemini-2.5-flash-lite",
+      "overall": 0.24500000000000008,
+      "categories": {
+        "personal": 0.2227272727272727,
+        "tech-opinions": 0.3726315789473684,
+        "t3-stack": 0.34375,
+        "company": 0.11615384615384618,
+        "content": 0.17684210526315788
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 17.150000000000006
+    },
+    {
+      "slug": "gpt-oss-120b",
+      "provider": "openai-or",
+      "model": "openai/gpt-oss-120b",
+      "overall": 0.2447826086956523,
+      "categories": {
+        "personal": 0.15454545454545457,
+        "tech-opinions": 0.38736842105263164,
+        "t3-stack": 0.3625,
+        "company": 0.14416666666666667,
+        "content": 0.16842105263157894
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 12,
+        "content": 19
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 16.890000000000008
+    },
+    {
+      "slug": "gpt-4-1-mini",
+      "provider": "openai-or",
+      "model": "openai/gpt-4.1-mini",
+      "overall": 0.24385714285714297,
+      "categories": {
+        "personal": 0.19090909090909092,
+        "tech-opinions": 0.3426315789473684,
+        "t3-stack": 0.26875,
+        "company": 0.24999999999999997,
+        "content": 0.16105263157894734
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 17.070000000000007
+    },
+    {
+      "slug": "deepseek-v3-2",
+      "provider": "deepseek",
+      "model": "deepseek/deepseek-v3.2",
+      "overall": 0.23999999999999996,
+      "categories": {
+        "personal": 0.20454545454545456,
+        "tech-opinions": 0.435,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 2,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 13,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.18571428571428572,
+      "complete": false,
+      "totalScore": 3.1199999999999997
+    },
+    {
+      "slug": "gpt-5-mini",
+      "provider": "openai-or",
+      "model": "openai/gpt-5-mini",
+      "overall": 0.23971428571428574,
+      "categories": {
+        "personal": 0.2227272727272727,
+        "tech-opinions": 0.39263157894736844,
+        "t3-stack": 0.27875,
+        "company": 0.20153846153846156,
+        "content": 0.10631578947368421
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 16.78
+    },
+    {
+      "slug": "gpt-4o-mini",
+      "provider": "openai-or",
+      "model": "openai/gpt-4o-mini",
+      "overall": 0.23971428571428557,
+      "categories": {
+        "personal": 0.2409090909090909,
+        "tech-opinions": 0.3373684210526316,
+        "t3-stack": 0.30000000000000004,
+        "company": 0.16153846153846155,
+        "content": 0.1694736842105263
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 16.77999999999999
+    },
+    {
+      "slug": "grok-3-mini",
+      "provider": "xai",
+      "model": "x-ai/grok-3-mini",
+      "overall": 0.23914285714285718,
+      "categories": {
+        "personal": 0.20727272727272725,
+        "tech-opinions": 0.3505263157894737,
+        "t3-stack": 0.325,
+        "company": 0.17076923076923076,
+        "content": 0.15684210526315784
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 16.740000000000002
+    },
+    {
+      "slug": "gpt-5-4-nano",
+      "provider": "openai-or",
+      "model": "openai/gpt-5.4-nano",
+      "overall": 0.23857142857142857,
+      "categories": {
+        "personal": 0.20909090909090908,
+        "tech-opinions": 0.38894736842105265,
+        "t3-stack": 0.31875,
+        "company": 0.11000000000000001,
+        "content": 0.15947368421052635
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 16.7
+    },
+    {
+      "slug": "llama-4-maverick",
+      "provider": "meta",
+      "model": "meta-llama/llama-4-maverick",
+      "overall": 0.23771428571428577,
+      "categories": {
+        "personal": 0.22727272727272724,
+        "tech-opinions": 0.3873684210526316,
+        "t3-stack": 0.23124999999999998,
+        "company": 0.17846153846153848,
+        "content": 0.13736842105263158
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 16.640000000000004
+    },
+    {
+      "slug": "deepseek-r1-distill-32b",
+      "provider": "deepseek",
+      "model": "deepseek/deepseek-r1-distill-qwen-32b",
+      "overall": 0.2357142857142857,
+      "categories": {
+        "personal": 0.2357142857142857,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 7,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 7,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.1,
+      "complete": false,
+      "totalScore": 1.65
+    },
+    {
+      "slug": "glm-4-32b",
+      "provider": "zhipu",
+      "model": "z-ai/glm-4-32b",
+      "overall": 0.22999999999999998,
+      "categories": {
+        "personal": 0.22999999999999998,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 5,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 5,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.07142857142857142,
+      "complete": false,
+      "totalScore": 1.15
+    },
+    {
+      "slug": "llama-3-3-70b",
+      "provider": "meta",
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "overall": 0.22771428571428576,
+      "categories": {
+        "personal": 0.22727272727272724,
+        "tech-opinions": 0.3357894736842105,
+        "t3-stack": 0.23375,
+        "company": 0.17538461538461536,
+        "content": 0.15315789473684208
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 15.940000000000003
+    },
+    {
+      "slug": "gemma-3-27b",
+      "provider": "google",
+      "model": "google/gemma-3-27b-it",
+      "overall": 0.22728571428571437,
+      "categories": {
+        "personal": 0.24090909090909093,
+        "tech-opinions": 0.38210526315789467,
+        "t3-stack": 0.22125,
+        "company": 0.1323076923076923,
+        "content": 0.1321052631578947
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 15.910000000000005
+    },
+    {
+      "slug": "gpt-5-nano",
+      "provider": "openai-or",
+      "model": "openai/gpt-5-nano",
+      "overall": 0.2218571428571429,
+      "categories": {
+        "personal": 0.23636363636363633,
+        "tech-opinions": 0.32263157894736844,
+        "t3-stack": 0.2375,
+        "company": 0.13846153846153847,
+        "content": 0.16315789473684209
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 15.530000000000003
+    },
+    {
+      "slug": "gpt-4-1-nano",
+      "provider": "openai-or",
+      "model": "openai/gpt-4.1-nano",
+      "overall": 0.21814285714285708,
+      "categories": {
+        "personal": 0.2318181818181818,
+        "tech-opinions": 0.27105263157894743,
+        "t3-stack": 0.21250000000000002,
+        "company": 0.23230769230769235,
+        "content": 0.15
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 15.269999999999996
+    },
+    {
+      "slug": "gpt-3-5-turbo-16k",
+      "provider": "openai-or",
+      "model": "openai/gpt-3.5-turbo-16k",
+      "overall": 0.21771428571428575,
+      "categories": {
+        "personal": 0.25,
+        "tech-opinions": 0.29368421052631577,
+        "t3-stack": 0.23124999999999998,
+        "company": 0.1715384615384615,
+        "content": 0.14894736842105263
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 15.240000000000002
+    },
+    {
+      "slug": "gpt-oss-20b",
+      "provider": "openai-or",
+      "model": "openai/gpt-oss-20b",
+      "overall": 0.21542857142857144,
+      "categories": {
+        "personal": 0.23636363636363633,
+        "tech-opinions": 0.3563157894736843,
+        "t3-stack": 0.26875,
+        "company": 0.08153846153846155,
+        "content": 0.13157894736842105
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 15.08
+    },
+    {
+      "slug": "rnj-1",
+      "provider": "essentialai",
+      "model": "essentialai/rnj-1-instruct",
+      "overall": 0.21428571428571427,
+      "categories": {
+        "personal": 0.21428571428571427,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 7,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 7,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.1,
+      "complete": false,
+      "totalScore": 1.5
+    },
+    {
+      "slug": "llama-3-70b",
+      "provider": "meta",
+      "model": "meta-llama/llama-3-70b-instruct",
+      "overall": 0.20754716981132085,
+      "categories": {
+        "personal": 0.15636363636363634,
+        "tech-opinions": 0.3499999999999999,
+        "t3-stack": 0.22499999999999998,
+        "company": 0.13111111111111112,
+        "content": 0.16153846153846155
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 12,
+        "t3-stack": 8,
+        "company": 9,
+        "content": 13
+      },
+      "totalQuestions": 53,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.7571428571428571,
+      "complete": false,
+      "totalScore": 11.000000000000005
+    },
+    {
+      "slug": "gemma-3n-e4b",
+      "provider": "google",
+      "model": "google/gemma-3n-e4b-it",
+      "overall": 0.2054285714285714,
+      "categories": {
+        "personal": 0.20909090909090902,
+        "tech-opinions": 0.3584210526315789,
+        "t3-stack": 0.21250000000000002,
+        "company": 0.1176923076923077,
+        "content": 0.10736842105263159
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 14.379999999999999
+    },
+    {
+      "slug": "gemma-2-9b",
+      "provider": "google",
+      "model": "google/gemma-2-9b-it",
+      "overall": 0.19885714285714284,
+      "categories": {
+        "personal": 0.14999999999999997,
+        "tech-opinions": 0.3415789473684211,
+        "t3-stack": 0.1475,
+        "company": 0.1346153846153846,
+        "content": 0.15
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 13.92
+    },
+    {
+      "slug": "gemma-3-12b",
+      "provider": "google",
+      "model": "google/gemma-3-12b-it",
+      "overall": 0.1952857142857143,
+      "categories": {
+        "personal": 0.18181818181818182,
+        "tech-opinions": 0.3494736842105264,
+        "t3-stack": 0.09125,
+        "company": 0.16538461538461538,
+        "content": 0.11315789473684212
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 13.670000000000002
+    },
+    {
+      "slug": "gpt-4-turbo",
+      "provider": "openai-or",
+      "model": "openai/gpt-4-turbo",
+      "overall": 0.19371428571428576,
+      "categories": {
+        "personal": 0.23909090909090908,
+        "tech-opinions": 0.23263157894736838,
+        "t3-stack": 0.23125,
+        "company": 0.17923076923076925,
+        "content": 0.12263157894736842
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 13.560000000000002
+    },
+    {
+      "slug": "gpt-3-5-turbo",
+      "provider": "openai-or",
+      "model": "openai/gpt-3.5-turbo",
+      "overall": 0.1904285714285715,
+      "categories": {
+        "personal": 0.2590909090909091,
+        "tech-opinions": 0.2784210526315789,
+        "t3-stack": 0.06,
+        "company": 0.15384615384615385,
+        "content": 0.1426315789473684
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 13.330000000000005
+    },
+    {
+      "slug": "gpt-4",
+      "provider": "openai-or",
+      "model": "openai/gpt-4",
+      "overall": 0.1851428571428572,
+      "categories": {
+        "personal": 0.14545454545454548,
+        "tech-opinions": 0.25631578947368416,
+        "t3-stack": 0.21250000000000002,
+        "company": 0.1353846153846154,
+        "content": 0.1594736842105263
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 12.960000000000004
+    },
+    {
+      "slug": "gemma-2-27b",
+      "provider": "google",
+      "model": "google/gemma-2-27b-it",
+      "overall": 0.18357142857142858,
+      "categories": {
+        "personal": 0.23636363636363636,
+        "tech-opinions": 0.3231578947368422,
+        "t3-stack": 0.0625,
+        "company": 0.07923076923076923,
+        "content": 0.13578947368421054
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 12.85
+    },
+    {
+      "slug": "claude-haiku-4-5",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "overall": 0.1695714285714287,
+      "categories": {
+        "personal": 0.2,
+        "tech-opinions": 0.22315789473684208,
+        "t3-stack": 0.28500000000000003,
+        "company": 0.10230769230769231,
+        "content": 0.09578947368421054
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 11.87000000000001
+    },
+    {
+      "slug": "llama-4-scout",
+      "provider": "meta",
+      "model": "meta-llama/llama-4-scout",
+      "overall": 0.16757142857142862,
+      "categories": {
+        "personal": 0.15636363636363637,
+        "tech-opinions": 0.25315789473684214,
+        "t3-stack": 0.075,
+        "company": 0.13076923076923078,
+        "content": 0.15263157894736842
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 11.730000000000004
+    },
+    {
+      "slug": "gemma-3-4b",
+      "provider": "google",
+      "model": "google/gemma-3-4b-it",
+      "overall": 0.16400000000000003,
+      "categories": {
+        "personal": 0.2290909090909091,
+        "tech-opinions": 0.3047368421052632,
+        "t3-stack": 0.085,
+        "company": 0.1,
+        "content": 0.06263157894736843
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 11.480000000000002
+    },
+    {
+      "slug": "llama-3-1-70b",
+      "provider": "meta",
+      "model": "meta-llama/llama-3.1-70b-instruct",
+      "overall": 0.15637681159420289,
+      "categories": {
+        "personal": 0.22727272727272727,
+        "tech-opinions": 0.19736842105263158,
+        "t3-stack": 0.26625,
+        "company": 0.08076923076923077,
+        "content": 0.07555555555555554
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 18
+      },
+      "totalQuestions": 69,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.9857142857142858,
+      "complete": false,
+      "totalScore": 10.79
+    },
+    {
+      "slug": "llama-3-8b",
+      "provider": "meta",
+      "model": "meta-llama/llama-3-8b-instruct",
+      "overall": 0.1424285714285715,
+      "categories": {
+        "personal": 0.1318181818181818,
+        "tech-opinions": 0.2557894736842105,
+        "t3-stack": 0.14375000000000002,
+        "company": 0.06461538461538462,
+        "content": 0.08789473684210529
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 9.970000000000004
+    },
+    {
+      "slug": "llama-3-1-8b",
+      "provider": "meta",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "overall": 0.06757142857142856,
+      "categories": {
+        "personal": 0.09545454545454546,
+        "tech-opinions": 0.10947368421052632,
+        "t3-stack": 0.04375,
+        "company": 0.0423076923076923,
+        "content": 0.0368421052631579
+      },
+      "categoryCounts": {
+        "personal": 11,
+        "tech-opinions": 19,
+        "t3-stack": 8,
+        "company": 13,
+        "content": 19
+      },
+      "totalQuestions": 70,
+      "totalPossibleQuestions": 70,
+      "coverage": 1,
+      "complete": true,
+      "totalScore": 4.7299999999999995
+    },
+    {
+      "slug": "granite-4-micro",
+      "provider": "ibm",
+      "model": "ibm-granite/granite-4.0-h-micro",
+      "overall": 0.06,
+      "categories": {
+        "personal": 0.06,
+        "tech-opinions": null,
+        "t3-stack": null,
+        "company": null,
+        "content": null
+      },
+      "categoryCounts": {
+        "personal": 5,
+        "tech-opinions": 0,
+        "t3-stack": 0,
+        "company": 0,
+        "content": 0
+      },
+      "totalQuestions": 5,
+      "totalPossibleQuestions": 70,
+      "coverage": 0.07142857142857142,
+      "complete": false,
+      "totalScore": 0.3
+    }
+  ],
+  "questions": [
+    {
+      "id": "theo-001",
+      "category": "personal",
+      "question": "What is Theo's full name?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-051",
+      "category": "personal",
+      "question": "What year was Theo born?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-002",
+      "category": "personal",
+      "question": "Where did Theo attend college and what did he study?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-003",
+      "category": "personal",
+      "question": "What city does Theo live in?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-004",
+      "category": "personal",
+      "question": "Where did Theo work before starting his own company, and what was his most notable project there?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-005",
+      "category": "personal",
+      "question": "What is Theo's Twitter/X handle?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-006",
+      "category": "personal",
+      "question": "What is the name of Theo's online community/Discord?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-007",
+      "category": "personal",
+      "question": "What self-deprecating joke does Theo frequently make about his position among TypeScript content creators?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-008",
+      "category": "personal",
+      "question": "What are some of Theo's known personal interests or hobbies outside of programming?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-009",
+      "category": "personal",
+      "question": "What was Theo's role at Rensselaer Polytechnic Institute outside of his studies?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-010",
+      "category": "personal",
+      "question": "What project did Theo work on between leaving Twitch and founding his own company?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-011",
+      "category": "tech-opinions",
+      "question": "What is Theo's stance on TypeScript versus plain JavaScript?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-012",
+      "category": "tech-opinions",
+      "question": "What is Theo's famous public challenge regarding Tailwind CSS?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-013",
+      "category": "tech-opinions",
+      "question": "What is Theo's controversial stance on unit testing?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-014",
+      "category": "tech-opinions",
+      "question": "What satirical PR did Theo submit in response to DHH dropping TypeScript from Turbo 8?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-015",
+      "category": "tech-opinions",
+      "question": "What is Theo's stance on CSS-in-JS solutions like styled-components?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-016",
+      "category": "tech-opinions",
+      "question": "Why did Theo migrate from Prisma to Drizzle for his ORM?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-017",
+      "category": "tech-opinions",
+      "question": "What is Theo's position on Next.js App Router versus Pages Router?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-018",
+      "category": "tech-opinions",
+      "question": "What framework did Theo migrate T3 Chat to after leaving Next.js, and what hosting platform does he still use?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-019",
+      "category": "tech-opinions",
+      "question": "What is Theo's opinion on monorepos?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-020",
+      "category": "tech-opinions",
+      "question": "What quip has Theo made about the Elixir community and Tailwind?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-021",
+      "category": "t3-stack",
+      "question": "What technologies make up the T3 Stack?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-022",
+      "category": "t3-stack",
+      "question": "What are the three T3 Axioms that govern the T3 Stack's philosophy?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-023",
+      "category": "t3-stack",
+      "question": "Who originally built the create-t3-app CLI tool, and what is notable about them?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-024",
+      "category": "t3-stack",
+      "question": "What website did Theo originally use to recommend the T3 Stack before create-t3-app existed?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-025",
+      "category": "t3-stack",
+      "question": "What GitHub organization hosts create-t3-app?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-026",
+      "category": "t3-stack",
+      "question": "What does the T3 Axiom 'Bleed Responsibly' mean?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-027",
+      "category": "t3-stack",
+      "question": "What was the original name of create-t3-app when nexxel first built it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-028",
+      "category": "t3-stack",
+      "question": "Where is the official documentation for the T3 Stack hosted?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-029",
+      "category": "company",
+      "question": "What is the legal name of Theo's company?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-030",
+      "category": "company",
+      "question": "Who co-founded Theo's company with him, and what is their role?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-031",
+      "category": "company",
+      "question": "What Y Combinator batch was Theo's company accepted into, and how much was the investment?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-032",
+      "category": "company",
+      "question": "What is UploadThing and when was it launched?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-033",
+      "category": "company",
+      "question": "What was Ping.gg and why did the company pivot away from it?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-034",
+      "category": "company",
+      "question": "What is T3 Chat?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-035",
+      "category": "company",
+      "question": "What was Chrometana and why was it notable?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-036",
+      "category": "company",
+      "question": "What is the most commonly uploaded file type on UploadThing?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-037",
+      "category": "company",
+      "question": "What other small tools and products has Theo's company built besides UploadThing and T3 Chat?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-038",
+      "category": "content",
+      "question": "What is Theo's YouTube channel called, and approximately how many subscribers does he have?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-039",
+      "category": "content",
+      "question": "What is Theo's primary video format and upload frequency on YouTube?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-040",
+      "category": "content",
+      "question": "Who is Theo's closest public collaborator in the content creator space, and how would you describe their dynamic?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-041",
+      "category": "content",
+      "question": "What happened after Theo published a critical video about WordPress and Matt Mullenweg?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-042",
+      "category": "content",
+      "question": "What tool did Theo build specifically for creating his YouTube thumbnails?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-043",
+      "category": "content",
+      "question": "What is the name of Theo's secondary YouTube channel?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-044",
+      "category": "content",
+      "question": "What are SnitchBench and Skatebench?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-045",
+      "category": "content",
+      "question": "What finding from the State of React survey relates to Theo's influence?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-046",
+      "category": "content",
+      "question": "What are the recurring community memes and inside jokes associated with Theo?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-047",
+      "category": "content",
+      "question": "What platform does Theo primarily stream on, and approximately how many followers does he have there?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-048",
+      "category": "content",
+      "question": "What new podcast did Theo launch in April 2026?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-049",
+      "category": "content",
+      "question": "What conferences has Theo spoken at?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-050",
+      "category": "content",
+      "question": "What is Theo's GitHub bio and approximately how many followers does he have there?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-052",
+      "category": "tech-opinions",
+      "question": "How does Theo describe himself in relation to Anthropic?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-053",
+      "category": "tech-opinions",
+      "question": "What is Theo's nuanced position on 'vibe coding'?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-054",
+      "category": "tech-opinions",
+      "question": "What is Theo's opinion on GitHub Copilot?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-055",
+      "category": "tech-opinions",
+      "question": "What is Theo's relationship with Cursor as both a user and investor?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-056",
+      "category": "tech-opinions",
+      "question": "What was Theo's trajectory of opinion on Claude Code?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-057",
+      "category": "tech-opinions",
+      "question": "What did Theo say about the AI pricing war between Gemini and Claude?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-058",
+      "category": "tech-opinions",
+      "question": "How much does Theo spend monthly on AI coding tools, and which ones does he use?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-059",
+      "category": "tech-opinions",
+      "question": "What is Theo's two-model strategy for AI-assisted coding?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-060",
+      "category": "tech-opinions",
+      "question": "What key claim did Theo make in his video '2025: The year I stopped writing code'?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-061",
+      "category": "company",
+      "question": "What is T3 Code and how does it work?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-062",
+      "category": "company",
+      "question": "How was T3 Chat originally built, and what motivated its creation?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-063",
+      "category": "company",
+      "question": "How much does T3 Chat cost and how does that compare to competitors?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-064",
+      "category": "content",
+      "question": "What is SnitchBench in detail — what scenario does it test and what inspired it?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-065",
+      "category": "content",
+      "question": "What were the key results of SnitchBench across different AI models?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-066",
+      "category": "content",
+      "question": "What is SkateBench and what notable result did it produce?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-067",
+      "category": "content",
+      "question": "What is Quipslop?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-068",
+      "category": "content",
+      "question": "What was Theo's reaction to Linus Torvalds using AI for coding?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-069",
+      "category": "company",
+      "question": "What prompt injection vulnerability did Theo discover in an OpenAI product?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-070",
+      "category": "content",
+      "question": "What notable event did Theo attend related to OpenAI's GPT-5?",
+      "difficulty": "hard"
+    }
+  ]
+}

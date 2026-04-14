@@ -1,0 +1,22 @@
+{
+  "name": "theobench",
+  "private": true,
+  "scripts": {
+    "bench": "pnpm --filter bench",
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "preview": "pnpm --filter web preview",
+    "cf:whoami": "wrangler whoami",
+    "cf:dev": "pnpm --filter bench export && pnpm build && wrangler dev",
+    "cf:deploy": "pnpm --filter bench export && pnpm build && wrangler deploy"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild"
+    ]
+  },
+  "devDependencies": {
+    "wrangler": "^4.81.1"
+  }
+}

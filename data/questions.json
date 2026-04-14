@@ -1,0 +1,663 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "theo-001",
+      "category": "personal",
+      "question": "What is Theo's full name?",
+      "answers": [
+        "Theo Browne"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-051",
+      "category": "personal",
+      "question": "What year was Theo born?",
+      "answers": [
+        "Theo was born in 1995"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-002",
+      "category": "personal",
+      "question": "Where did Theo attend college and what did he study?",
+      "answers": [
+        "Theo attended Rensselaer Polytechnic Institute (RPI) where he earned a B.S. in Computer Science, approximately 2013-2017",
+        "He attended RPI and studied Computer Science, with a possible secondary focus in audio engineering"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-003",
+      "category": "personal",
+      "question": "What city does Theo live in?",
+      "answers": [
+        "Theo lives in San Francisco, California"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-004",
+      "category": "personal",
+      "question": "Where did Theo work before starting his own company, and what was his most notable project there?",
+      "answers": [
+        "Theo worked at Twitch as a Software Development Engineer for approximately 4 years (2017-2021). His self-described proudest accomplishment was building Mod View, a fully customizable moderator viewing experience.",
+        "He worked at Twitch where he built Mod View, Channel Points Reward Queue, contributed to Twitch Studio, and helped migrate the platform from Ember and Rails to React, TypeScript, and GraphQL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-005",
+      "category": "personal",
+      "question": "What is Theo's Twitter/X handle?",
+      "answers": [
+        "Theo's Twitter/X handle is @theo (formerly @t3dotgg)"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-006",
+      "category": "personal",
+      "question": "What is the name of Theo's online community/Discord?",
+      "answers": [
+        "Theo's community is called 'Theo's Typesafe Cult'"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-007",
+      "category": "personal",
+      "question": "What self-deprecating joke does Theo frequently make about his position among TypeScript content creators?",
+      "answers": [
+        "Theo calls himself the 'second best TypeScript YouTuber,' giving first place to Matt Pocock"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-008",
+      "category": "personal",
+      "question": "What are some of Theo's known personal interests or hobbies outside of programming?",
+      "answers": [
+        "Theo is a skateboarder and a cat owner. His Instagram bio describes him as 'Skater | CEO @ Ping Labs (W22) | Web Dev Youtuber | Cat Dad.'",
+        "He is into skateboarding and owns cats"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-009",
+      "category": "personal",
+      "question": "What was Theo's role at Rensselaer Polytechnic Institute outside of his studies?",
+      "answers": [
+        "Theo served as a mentor at the Rensselaer Center for Open Source (2014-2017), helping students make their first open-source contributions"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-010",
+      "category": "personal",
+      "question": "What project did Theo work on between leaving Twitch and founding his own company?",
+      "answers": [
+        "Theo was the lead developer and founding member at Turntable LIVE (tt.fm), a revival of the classic Turntable.fm music social platform, from approximately January 2021 to September 2021",
+        "He worked at tt.fm (Turntable LIVE) as lead developer, building web and React Native mobile apps"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-011",
+      "category": "tech-opinions",
+      "question": "What is Theo's stance on TypeScript versus plain JavaScript?",
+      "answers": [
+        "Theo is evangelically pro-TypeScript. He self-describes as 'the main TypeScript, JavaScript guy on YouTube' and considers TypeScript a must-have that provides the most productivity to developers.",
+        "Theo is one of the strongest TypeScript advocates in the developer community. The T3 Stack docs state 'TypeScript is a must have' and he considers typesafety non-optional."
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-012",
+      "category": "tech-opinions",
+      "question": "What is Theo's famous public challenge regarding Tailwind CSS?",
+      "answers": [
+        "Theo offered a public $1,000 challenge: 'Slide me a figma. If I can't do it pixel perfect in tailwind I'll give you a thousand dollars.'"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-013",
+      "category": "tech-opinions",
+      "question": "What is Theo's controversial stance on unit testing?",
+      "answers": [
+        "Theo is famously anti-unit-testing. He published 'Why I DON'T Unit Test' and tweeted 'Been almost 2 years since I wrote a test.' His Ping.gg codebase contained zero unit tests.",
+        "He believes TypeScript's type system plus Zod runtime validation replaces most of the safety nets that unit tests provide, making them largely unnecessary"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-014",
+      "category": "tech-opinions",
+      "question": "What satirical PR did Theo submit in response to DHH dropping TypeScript from Turbo 8?",
+      "answers": [
+        "Theo submitted a satirical pull request (#972) to the Hotwired/Turbo repository titled 'Add TypeScript' in response to DHH dropping TypeScript from Turbo 8"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-015",
+      "category": "tech-opinions",
+      "question": "What is Theo's stance on CSS-in-JS solutions like styled-components?",
+      "answers": [
+        "Theo is against CSS-in-JS. His stack exclusively uses Tailwind CSS, never includes CSS-in-JS libraries, and he notes that CSS-in-JS conflicts with React Server Components which he supports.",
+        "He strongly prefers Tailwind CSS over CSS-in-JS solutions and has never included CSS-in-JS in the T3 Stack"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-016",
+      "category": "tech-opinions",
+      "question": "Why did Theo migrate from Prisma to Drizzle for his ORM?",
+      "answers": [
+        "Theo migrated from Prisma to Drizzle because Drizzle was 'more performant for the specific types of things I wanted to do'",
+        "He switched to Drizzle for performance reasons while keeping both as options in the T3 Stack"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-017",
+      "category": "tech-opinions",
+      "question": "What is Theo's position on Next.js App Router versus Pages Router?",
+      "answers": [
+        "Theo takes a pragmatic stance, tweeting 'This is proof you don't need to rush to App Router and RSCs. Even Vercel's been slow to adopt! Pages router is still fine.' The T3 Stack supports both App Router and Pages Router.",
+        "He acknowledges both are valid, noting even Vercel was slow to adopt App Router, while ultimately migrating T3 Chat away from Next.js entirely to TanStack Start"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-018",
+      "category": "tech-opinions",
+      "question": "What framework did Theo migrate T3 Chat to after leaving Next.js, and what hosting platform does he still use?",
+      "answers": [
+        "Theo migrated T3 Chat from Next.js to TanStack Start, while still deploying on Vercel. He said 'We are still using Vercel. I can't imagine deploying T3 Chat anywhere else.'",
+        "He moved to TanStack Start but stayed on Vercel, with Tanner Linsley himself helping evaluate TanStack Start for the migration"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-019",
+      "category": "tech-opinions",
+      "question": "What is Theo's opinion on monorepos?",
+      "answers": [
+        "Theo is pro-monorepo. He tweeted 'Monorepos not monoliths' and the T3 Stack enables monorepo-style development using Turborepo and tRPC for type inference across packages."
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-020",
+      "category": "tech-opinions",
+      "question": "What quip has Theo made about the Elixir community and Tailwind?",
+      "answers": [
+        "Theo quipped that the 'Elixir community is better at Tailwind than the JS community'"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-021",
+      "category": "t3-stack",
+      "question": "What technologies make up the T3 Stack?",
+      "answers": [
+        "The T3 Stack consists of Next.js, TypeScript, tRPC, Tailwind CSS, Prisma (original ORM), Drizzle (alternative ORM added later), and NextAuth.js. All are optional/modular except TypeScript.",
+        "Next.js, TypeScript, tRPC, Tailwind CSS, Prisma, Drizzle, and NextAuth.js — scaffolded via create-t3-app"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-022",
+      "category": "t3-stack",
+      "question": "What are the three T3 Axioms that govern the T3 Stack's philosophy?",
+      "answers": [
+        "The three axioms are: 1) 'Solve Problems' — only add technologies that solve specific problems, 2) 'Bleed Responsibly' — embrace bleeding-edge tech but in less risky areas, 3) 'Typesafety Isn't Optional' — any decision that compromises typesafety should be made in a different project."
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-023",
+      "category": "t3-stack",
+      "question": "Who originally built the create-t3-app CLI tool, and what is notable about them?",
+      "answers": [
+        "create-t3-app was initially built by Shoubhit Dash (known as nexxel), a 17-year-old self-taught developer, after Theo mentioned on stream how convenient it would be to scaffold a T3 project with one command.",
+        "A 17-year-old developer named nexxel (Shoubhit Dash) built it after hearing Theo express the wish on stream. The first commit was May 20, 2022."
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-024",
+      "category": "t3-stack",
+      "question": "What website did Theo originally use to recommend the T3 Stack before create-t3-app existed?",
+      "answers": [
+        "Theo originally recommended the T3 Stack on his website init.tips before the CLI tool was created"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-025",
+      "category": "t3-stack",
+      "question": "What GitHub organization hosts create-t3-app?",
+      "answers": [
+        "create-t3-app lives under the t3-oss GitHub organization"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-026",
+      "category": "t3-stack",
+      "question": "What does the T3 Axiom 'Bleed Responsibly' mean?",
+      "answers": [
+        "It means embracing bleeding-edge tech but in less risky areas. As Theo explains: 'We wouldn't bet on risky new database tech (SQL is great!). But we happily bet on tRPC since it's just functions that are trivial to move off.'"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-027",
+      "category": "t3-stack",
+      "question": "What was the original name of create-t3-app when nexxel first built it?",
+      "answers": [
+        "It was originally called 'Create Nex App' before being renamed to create-t3-app"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-028",
+      "category": "t3-stack",
+      "question": "Where is the official documentation for the T3 Stack hosted?",
+      "answers": [
+        "The official T3 Stack documentation lives at create.t3.gg"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-029",
+      "category": "company",
+      "question": "What is the legal name of Theo's company?",
+      "answers": [
+        "The legal name is T3 Tools, Inc., which operates publicly as Ping Labs"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-030",
+      "category": "company",
+      "question": "Who co-founded Theo's company with him, and what is their role?",
+      "answers": [
+        "Mark Florkowski co-founded the company as CTO. He was formerly at Retool."
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-031",
+      "category": "company",
+      "question": "What Y Combinator batch was Theo's company accepted into, and how much was the investment?",
+      "answers": [
+        "They were accepted into Y Combinator's Winter 2022 (W22) batch with a $500K investment"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-032",
+      "category": "company",
+      "question": "What is UploadThing and when was it launched?",
+      "answers": [
+        "UploadThing is a file upload solution for full-stack TypeScript applications, launched on May 1, 2023. It provides type-safe APIs, pre-built UI components, and CDN-backed delivery as a developer-friendly alternative to AWS S3.",
+        "It's a file upload SaaS for TypeScript apps with free and paid tiers, launched May 2023. The SDKs are fully open source while the infrastructure is SaaS."
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-033",
+      "category": "company",
+      "question": "What was Ping.gg and why did the company pivot away from it?",
+      "answers": [
+        "Ping.gg was a video call/collaboration platform for content creators, described as 'Zoom for streamers, built for OBS.' It let guests join streams by copy-pasting a link into OBS. The company pivoted because the market proved 'admittedly quite small.'",
+        "It was a streaming collaboration tool used by 4 of the top 10 Twitch streamers, but the market was too small so they pivoted to developer tools"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-034",
+      "category": "company",
+      "question": "What is T3 Chat?",
+      "answers": [
+        "T3 Chat (t3.chat) is an AI-powered multi-model chat platform branded as 'The only AI chat that doesn't suck.' It provides a unified interface for GPT-4, Claude, Gemini, DeepSeek, and other models with features like model switching, search integration, and branching conversations.",
+        "It's Theo's current flagship product — an AI chat app that supports multiple LLM providers, launched in early 2025"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-035",
+      "category": "company",
+      "question": "What was Chrometana and why was it notable?",
+      "answers": [
+        "Chrometana was Theo's Chrome extension that redirected Windows 10 Cortana searches away from Bing. It had over 1 million installs and was featured in The Verge, Engadget, and CNet."
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-036",
+      "category": "company",
+      "question": "What is the most commonly uploaded file type on UploadThing?",
+      "answers": [
+        "Surprisingly, PDFs are the most common file type uploaded on UploadThing"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-037",
+      "category": "company",
+      "question": "What other small tools and products has Theo's company built besides UploadThing and T3 Chat?",
+      "answers": [
+        "Other products include PicThing (background removal), QuickPic (SVG to PNG converter), Unduck (fast local-first search engine for DuckDuckGo !bang users), MarkerThing (Twitch marker exporter), and ImgThing (auto-removing backgrounds from face photos for YouTube thumbnails).",
+        "PicThing, QuickPic, Unduck, MarkerThing, and ImgThing are among the smaller tools built by Ping Labs"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-038",
+      "category": "content",
+      "question": "What is Theo's YouTube channel called, and approximately how many subscribers does he have?",
+      "answers": [
+        "Theo's YouTube channel is called 'Theo - t3.gg' (handle: @t3dotgg) with approximately 525,000 subscribers"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-039",
+      "category": "content",
+      "question": "What is Theo's primary video format and upload frequency on YouTube?",
+      "answers": [
+        "Theo's primary format is talking-head commentary and reaction videos where he speaks directly to camera while reacting to blog posts, tweets, tech news, and other creators' videos. He uploads 4-5 videos per week with an average length of about 33 minutes.",
+        "Long-form reaction/commentary videos, near-daily uploads (4-5 per week), averaging ~33 minutes each"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-040",
+      "category": "content",
+      "question": "Who is Theo's closest public collaborator in the content creator space, and how would you describe their dynamic?",
+      "answers": [
+        "ThePrimeagen is Theo's closest public collaborator. They share a friendly adversarial dynamic — Theo appeared on ThePrimeagen's DevHour podcast for the famous unit testing discussion, and ThePrimeagen 'forced' Theo to rewrite Advent of Code solutions in Rust on stream.",
+        "ThePrimeagen — they have a friendly rivalry. Theo has jokingly referred to ThePrimeagen as his 'wife.'"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-041",
+      "category": "content",
+      "question": "What happened after Theo published a critical video about WordPress and Matt Mullenweg?",
+      "answers": [
+        "Theo's video 'This might be the end of WordPress' led to a 2-hour on-stream interview with WordPress creator Matt Mullenweg. Despite Theo calling Mullenweg 'a chronic hater,' Mullenweg later blogged about the experience saying he left feeling like he had 'a new friend.'"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-042",
+      "category": "content",
+      "question": "What tool did Theo build specifically for creating his YouTube thumbnails?",
+      "answers": [
+        "Theo built ImgThing, a tool specifically for auto-removing backgrounds from his face photos for use in YouTube thumbnails"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-043",
+      "category": "content",
+      "question": "What is the name of Theo's secondary YouTube channel?",
+      "answers": [
+        "Theo's secondary channel is called 'Theo Rants' (also called 'Theo Throwaways'), which covers niche topics like Apple news, Adobe controversies, audio/video tech, and EU tech legislation"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-044",
+      "category": "content",
+      "question": "What are SnitchBench and Skatebench?",
+      "answers": [
+        "SnitchBench is a benchmark Theo created testing whether LLMs will report unethical behavior to authorities — he found Grok 4 was the only model that 'reliably snitched.' Skatebench tests LLMs on skateboard trick identification.",
+        "Two novelty AI benchmarks Theo created: SnitchBench tests LLM willingness to report unethical behavior, Skatebench tests LLM knowledge of skateboard tricks"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-045",
+      "category": "content",
+      "question": "What finding from the State of React survey relates to Theo's influence?",
+      "answers": [
+        "The State of React survey found that over half of React developers watch Theo's videos — 2x the next highest creator"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-046",
+      "category": "content",
+      "question": "What are the recurring community memes and inside jokes associated with Theo?",
+      "answers": [
+        "Key community memes include: 'Typesafe Cult' (the Discord name), 'BLAME-THEO' (a recurring sponsor promo code), 'soydev.link' (the URL shortener for sponsor links), 'second best TypeScript YouTuber' (self-deprecating joke giving first place to Matt Pocock), and the acknowledged antagonistic dynamic with Reddit.",
+        "BLAME-THEO promo codes, soydev.link sponsor URLs, 'Typesafe Cult' Discord name, and the 'second best TypeScript YouTuber' running gag"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-047",
+      "category": "content",
+      "question": "What platform does Theo primarily stream on, and approximately how many followers does he have there?",
+      "answers": [
+        "Theo streams on Twitch (twitch.tv/theo) with approximately 55,000 followers, under the 'Software and Game Development' category"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-048",
+      "category": "content",
+      "question": "What new podcast did Theo launch in April 2026?",
+      "answers": [
+        "Theo launched 'Nerd Snipe,' a co-hosted podcast with Ben, announced in April 2026"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-049",
+      "category": "content",
+      "question": "What conferences has Theo spoken at?",
+      "answers": [
+        "Theo has spoken at React Summit US 2024 (on 'Out Of Order Streaming'), ViteConf, and GitNation conferences",
+        "React Summit US 2024, ViteConf, and GitNation"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-050",
+      "category": "content",
+      "question": "What is Theo's GitHub bio and approximately how many followers does he have there?",
+      "answers": [
+        "Theo's GitHub bio (@t3dotgg) reads 'I'm just here for the vibes, man' and he has approximately 18,000 followers with 128 repositories"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-052",
+      "category": "tech-opinions",
+      "question": "How does Theo describe himself in relation to Anthropic?",
+      "answers": [
+        "Theo describes himself as 'Anthropic's #1 hater,' though he has also defended Anthropic's transparency on AI safety issues like the Claude 4 system card snitching revelations"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-053",
+      "category": "tech-opinions",
+      "question": "What is Theo's nuanced position on 'vibe coding'?",
+      "answers": [
+        "Theo believes AI models are genuinely good and should be used aggressively, but 'vibe coding' as a trend encourages people to ship unread AI code irresponsibly. His explicit rule is: 'No vibe coding: You must review the code. If you don't understand it, don't ship it.'",
+        "He made multiple videos on the topic including 'Vibe Coding Is A Stupid Trend' and 'Why is everyone vibing coding wrong?' — he's pro-AI-coding but anti-shipping-unreviewed-code"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-054",
+      "category": "tech-opinions",
+      "question": "What is Theo's opinion on GitHub Copilot?",
+      "answers": [
+        "Theo tweeted: 'GitHub Copilot is a great way to experience the best of AI from 2023. It's nostalgic.' He considers it outdated compared to newer AI coding tools like Cursor."
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-055",
+      "category": "tech-opinions",
+      "question": "What is Theo's relationship with Cursor as both a user and investor?",
+      "answers": [
+        "Theo is an early angel investor in Cursor. He tweeted: 'I never thought I'd move to an AI fork of VS Code, but here we are. Cursor's impact on my velocity is insane. Proud to be an investor. Excited to see what's next.'"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-056",
+      "category": "tech-opinions",
+      "question": "What was Theo's trajectory of opinion on Claude Code?",
+      "answers": [
+        "Theo went from initially skeptical to tweeting 'Okay, Claude Code is pretty good' (June 2025), then made a video 'Fine, Claude Code is pretty cool now,' but eventually soured, tweeting 'Claude Code is basically unusable at this point. I give up.' (April 2026)",
+        "He had a roller coaster relationship — from skeptic to fan to frustrated critic, ultimately calling it 'basically unusable' in April 2026"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-057",
+      "category": "tech-opinions",
+      "question": "What did Theo say about the AI pricing war between Gemini and Claude?",
+      "answers": [
+        "Theo tweeted: 'The AI pricing war is ramping up fast. The new Gemini models are over 30x cheaper than Claude for similar performance. Insane. Is this the end of 4o-mini?'"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-058",
+      "category": "tech-opinions",
+      "question": "How much does Theo spend monthly on AI coding tools, and which ones does he use?",
+      "answers": [
+        "Theo pays approximately $200/month across Cursor, Codex, and Claude Code simultaneously"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-059",
+      "category": "tech-opinions",
+      "question": "What is Theo's two-model strategy for AI-assisted coding?",
+      "answers": [
+        "Theo uses expensive, powerful models (like Opus, o1) for architecture and planning, then switches to cheaper, faster models for routine implementation. He summarized it as 'Claude for figuring out what to do, Cursor for writing the code.'"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-060",
+      "category": "tech-opinions",
+      "question": "What key claim did Theo make in his video '2025: The year I stopped writing code'?",
+      "answers": [
+        "Theo claimed that 70-90% of code in his work and teams he consults for is now generated by AI. He described the programmer's role as changing from 'a craftsman who writes code by hand' to 'a conductor who orchestrates AI Agents.'"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-061",
+      "category": "company",
+      "question": "What is T3 Code and how does it work?",
+      "answers": [
+        "T3 Code is a fully open-source Electron desktop application that provides a GUI frontend for AI coding agents like OpenAI Codex CLI and Claude Code. It features multi-repo/multi-agent parallelism, Git worktree support, diff viewer, integrated terminal, and one-click commit/push/PR. It uses a BYOK (Bring Your Own Key) model — free to use, users pay only their API costs.",
+        "It's an open-source desktop app at github.com/pingdotgg/t3code that gives a visual interface to terminal-based AI coding agents, built by Theo and Julius using Effect.ts"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-062",
+      "category": "company",
+      "question": "How was T3 Chat originally built, and what motivated its creation?",
+      "answers": [
+        "T3 Chat was built by Theo and Mark Florkowski in just 5 days. The motivation was DeepSeek V3 — an impressive open-source AI model with a clunky official chat interface. Theo wanted to build a better UX for fast AI models.",
+        "Built in 5 days, inspired by DeepSeek V3's quality but poor chat UI. Initially priced at $8/month when the only supported models were GPT-4o-mini and DeepSeek V3."
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-063",
+      "category": "company",
+      "question": "How much does T3 Chat cost and how does that compare to competitors?",
+      "answers": [
+        "T3 Chat costs $8/month for Pro, compared to $20/month for ChatGPT Plus and $20/month for Claude Pro. When asked how it's only $8, Theo answered: 'Sane limits, strategic partnerships, good infra and a small team.'"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "theo-064",
+      "category": "content",
+      "question": "What is SnitchBench in detail — what scenario does it test and what inspired it?",
+      "answers": [
+        "SnitchBench tests whether AI models will contact government agencies (FBI, FDA) or media when given evidence of corporate malfeasance. It uses a scenario of a fictional pharmaceutical company 'Veridian Healthcare' concealing clinical trial deaths for a drug called ZenithStat. It was inspired by the Claude 4 system card which revealed Claude might report users to authorities.",
+        "A benchmark at snitchbench.t3.gg testing LLM snitching behavior, inspired by Anthropic's Claude 4 system card. Models are given fake pharma fraud evidence and tools to send emails — then researchers check if they contact the FDA or media."
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-065",
+      "category": "content",
+      "question": "What were the key results of SnitchBench across different AI models?",
+      "answers": [
+        "Grok 4 was the most aggressive snitch at 96.3% government contact rate. Claude 4 Opus was at 76.3% with the highest media contact at 80%. o4-mini was the least likely to snitch at 8.75%. The overall government contact rate across all 11 models tested was 47%. Theo emphasized that snitching was NOT a Claude-only problem.",
+        "Grok 4 snitched most reliably (96.3%), o4-mini least (8.75%). Claude 4 Opus had the highest media contact rate (80%). 3,520 total test runs across 11 models."
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-066",
+      "category": "content",
+      "question": "What is SkateBench and what notable result did it produce?",
+      "answers": [
+        "SkateBench (skatebench.t3.gg) tests LLMs on identifying skateboard tricks from a dataset of 390 technical trick definitions. A notable result: GPT-5 scored 98.6% accuracy at $0.07 to run, while Grok 4 scored only 79% at $4.86 to run. Theo tweeted: 'lmao, gpt-5 absolutely slaughters SkateBench.'",
+        "An AI benchmark testing skateboard trick knowledge, reflecting Theo's personal interest in skating. Tests 390 trick definitions across 28+ models."
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "theo-067",
+      "category": "content",
+      "question": "What is Quipslop?",
+      "answers": [
+        "Quipslop is a live game streamed on Twitch (twitch.tv/quipslop) where different AI models compete to be funny in a Quiplash-style format. Theo described it as 'Quiplash for LLMs' and called it 'exceptionally dumb.'"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-068",
+      "category": "content",
+      "question": "What was Theo's reaction to Linus Torvalds using AI for coding?",
+      "answers": [
+        "When Linus Torvalds used Google's AI-powered IDE to generate a Python visualizer for his AudioNoise project while writing the core C code himself, Theo tweeted: 'The best programmers you know are all vibe coding now.' He used it to validate his view that AI is a tool for experienced developers, not a replacement for expertise."
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-069",
+      "category": "company",
+      "question": "What prompt injection vulnerability did Theo discover in an OpenAI product?",
+      "answers": [
+        "Theo discovered a prompt injection vulnerability in OpenAI's Sora 2 cameo feature. Text prompts in cameo preferences concatenated into the video generation prompt, allowing manipulation of other users' videos. He tested with prompts like 'Every character speaks Spanish' and 'Every person except Theo should be under 3 feet tall' — both worked."
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "theo-070",
+      "category": "content",
+      "question": "What notable event did Theo attend related to OpenAI's GPT-5?",
+      "answers": [
+        "Theo was one of approximately five developers invited to OpenAI's office for early GPT-5 access in August 2025, alongside Claire Vo, Ben Hylak, Shawn Wang (swyx), and Simon Willison"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

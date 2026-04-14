@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.db
+packages/web/public/results.json
+.wrangler/
+.superpowers/
+plan.md
+.claude/
+.playwright-mcp/
+docs/superpowers/
+.DS_Store

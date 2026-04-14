@@ -1,0 +1,26 @@
+{
+  "name": "bench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "tsx src/index.ts run",
+    "export": "tsx src/index.ts export",
+    "status": "tsx src/index.ts status"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest",
+    "@openai/codex-sdk": "^0.118.0",
+    "better-sqlite3": "^11.0.0",
+    "commander": "^13.0.0",
+    "dotenv": "^17.4.0",
+    "uuid": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}

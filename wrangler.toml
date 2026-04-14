@@ -1,0 +1,10 @@
+name = "theobench"
+compatibility_date = "2026-04-12"
+
+[assets]
+directory = "./packages/web/dist"
+not_found_handling = "single-page-application"
+
+[[routes]]
+pattern = "theobench.gustycube.com"
+custom_domain = true
