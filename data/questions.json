@@ -551,7 +551,7 @@
       "category": "tech-opinions",
       "question": "What is Theo's two-model strategy for AI-assisted coding?",
       "answers": [
-        "Theo uses expensive, powerful models (like Opus, o1) for architecture and planning, then switches to cheaper, faster models for routine implementation. He summarized it as 'Claude for figuring out what to do, Cursor for writing the code.'"
+        "Theo uses expensive, powerful models (like Opus, gpt-5.4) for architecture and planning, then switches to cheaper, faster models for routine implementation. He summarized it as 'Claude for figuring out what to do, Cursor for writing the code.'"
       ],
       "difficulty": "hard"
     },
